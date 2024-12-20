@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="Uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../script.js" defer></script>
+    <title> CineHub </title>
+    <link rel="stylesheet" type="text/css" href="../../styles.css">
+    <link rel="stylesheet" type="text/css" href="item.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="gradient-text">CineHub</div>
+        </div>
+        <div class="mobile-header">
+            <button class="burger-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="main-nav">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Знайти фільм або серіал">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="searchResults" class="search-results"></div>
+            </div>
+            <div class="auth-buttons">
+                <button class="register-btn">Реєстрація</button>
+                <button class="login-btn">Увійти</button>
+            </div>
+        </nav>
+    </header>
+    <section class="item-container">
+        <div class="item-info">
+            <div class="image-section">
+                <img src="../../images/img1-2.jpg" class="image" alt="Персні Влади">
+                <div class="thumbnails">
+                    <img src="../../images/s1.jpg" class="thumbnail" alt="Сцена 1">
+                    <img src="../../images/s2.jpg" class="thumbnail" alt="Сцена 2">
+                    <img src="../../images/s3.jpg" class="thumbnail" alt="Сцена 3">
+                    <img src="../../images/s4.avif" class="thumbnail" alt="Сцена 3">
+                </div>
+                <button class="watch-btn">
+                    <i class="fas fa-play"></i>
+                    Дивитись
+                </button>
+            </div>
+            <div class="description">
+                <h1 class="title">Персні Влади (The Rings of Power)</h1>
+                <div class="meta-info">
+                    <span><i class="fas fa-film"></i> Сезонів: 1 (заплановано 5)</span>
+                    <span><i class="fas fa-star"></i> Рейтинг: 7.0/10</span>
+                    <span><i class="fas fa-theater-masks"></i> Жанр: фентезі, пригоди, драма</span>
+                    <span><i class="fas fa-clock"></i> Тривалість серії: 60 хвилин</span>
+                </div>
+                
+                <div class="cast">
+                    <h2><i class="fas fa-users"></i> Головні актори</h2>
+                    <div class="cast-grid">
+                        <div class="cast-member">
+                            <img src="../../images/galadriel.jpeg" alt="Морвед Кларк">
+                            <div class="cast-info">
+                                <h3>Морвед Кларк</h3>
+                                <p class="character">як Ґаладріель</p>
+                                <p class="bio">Валькірія-воїн, що шукає помсти за смерть свого брата та бореться зі злом у Середзем'ї.</p>
+                            </div>
+                        </div>
+                        <div class="cast-member">
+                            <img src="../../images/eldron.jpg" alt="Роберт Арамайо">
+                            <div class="cast-info">
+                                <h3>Роберт Арамайо</h3>
+                                <p class="character">як Елронд</p>
+                                <p class="bio">Молодий напівельф-політик, який намагається знайти своє місце між світами ельфів і людей.</p>
+                            </div>
+                        </div>
+                        <div class="cast-member">
+                            <img src="../../images/halbrand.jpeg" alt="Чарлі Вікерс">
+                            <div class="cast-info">
+                                <h3>Чарлі Вікерс</h3>
+                                <p class="character">як Галбренд</p>
+                                <p class="bio">Таємничий корабельний аварійник з темним минулим, доля якого тісно переплітається з Ґаладріель.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="synopsis">
+                    <h2><i class="fas fa-book-open"></i> Опис</h2>
+                    <p>
+                        "Персні Влади" — епічний серіал, дія якого відбувається в Другу Епоху Середзем'я, за тисячі років до подій "Володаря Перснів". Це час відносного миру, коли були викувані великі персні влади, піднеслося королівство Нуменор та відбулося останнє об'єднання ельфів і людей проти Саурона. Серіал розповід��є про ключові події цієї епохи, від створення персенів влади до піднесення Темного Володаря та падіння Нуменору.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

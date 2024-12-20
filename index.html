@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="Uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title> CineHub </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="gradient-text">CineHub</div>
+        </div>
+        <div class="mobile-header"></div>
+            <button class="burger-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="main-nav">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Знайти фільм або серіал">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="searchResults" class="search-results"></div>
+            </div>
+            <div class="auth-buttons">
+                <button class="register-btn">Реєстрація</button>
+                <button class="login-btn">Увійти</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Персні Влади</h1>
+            <p class="hero-description">Епічна сага про Середзем'я та боротьбу за владу. Поринь у світ магії, героїзму та пригод.</p>
+            <div class="hero-buttons">
+                <button class="watch-btn">Дивитися зараз</button>
+                <button class="info-btn">Детальніше</button>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </div>
+
+    <section>
+        <div class="recommendation">
+            <h2>Найкращі серіали 2024</h2>
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn">&#8249;</button>
+                <div class="carousel">
+                    <a href="pages/item/item1.html" target="_blank">
+                        <img src="images/img1-1.png" class="carousel-item" alt="Персні Влади">
+                    </a>
+                    <a href="pages/item/item2.html" target="_blank">
+                        <img src="images/img2-1.jpg" class="carousel-item" alt="Відьмак">
+                    </a>
+                    <a href="pages/item/item3.html" target="_blank">
+                        <img src="images/img3-1.jpeg" class="carousel-item" alt="Гра престолів">
+                        </a>
+                    <a href="pages/item/item4.html" target="_blank">
+                        <img src="images/img4-1.jpg" class="carousel-item" alt="Надприродне">
+                    </a>
+                    <a href="pages/item/item5.html" target="_blank">
+                        <img src="images/img5-1.jpg" class="carousel-item" alt="Юцифер">
+                    </a>
+                    <a href="pages/item/item6.html" target="_blank">
+                        <img src="images/img6-1.jpg" class="carousel-item" alt="Пуститися берега">
+                    </a>
+                    <a href="pages/item/item7.html" target="_blank">
+                        <img src="images/img7-1.jpg" class="carousel-item" alt="Вікінги">
+                    </a>
+                    <a href="pages/item/item8.html" target="_blank">
+                        <img src="images/img8-1.jpg" class="carousel-item" alt="Дивні дива">
+                    </a>
+                    <a href="pages/item/item9.html" target="_blank">
+                        <img src="images/img9-1.jpg" class="carousel-item" alt="Картковий будинок">
+                    </a>
+                    <a href="pages/item/item10.html" target="_blank">
+                        <img src="images/img10-1.jpg" class="carousel-item" alt="Форс-мажори">
+                    </a>
+                </div>
+                <button class="carousel-btn next-btn">&#8250;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages-section">
+        <h2>Переваги нашої системи</h2>
+        <table class="advantages-table">
+            <tr>
+                <th>Функція</th>
+                <th>Опис</th>
+                <th>Переваги</th>
+            </tr>
+            <tr>
+                <td>Персоналізовані рекомендації</td>
+                <td>Система підбирає контент на основі ваших вподобань</td>
+                <td>Економія часу на пошук цікавого контенту</td>
+            </tr>
+            <tr>
+                <td>Швидкий пошук</td>
+                <td>Розумний пошук по всій базі фільмів та серіалів</td>
+                <td>Миттєве знаходження потрібного контенту</td>
+            </tr>
+            <tr>
+                <td>Зручний інтерфейс</td>
+                <td>Інтуїтивно зрозумілий дизайн</td>
+                <td>Комфортне користування для всіх</td>
+            </tr>
+            <tr>
+                <td>Велика база контенту</td>
+                <td>Тисячі фільмів та серіалів</td>
+                <td>Завжди є що подиви��ися</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="lists-section">
+        <h2>Додаткова інформація</h2>
+        
+        <div class="list-group">
+            <h3>Топ жанри на платформі:</h3>
+            <ol>
+                <li>Бойовики</li>
+                <li>Драми</li>
+                <li>Комедії</li>
+                <li>Фантастика</li>
+                <li>Трилери</li>
+            </ol>
+        </div>
+
+        <div class="list-group">
+            <h3>Що ми пропонуємо:</h3>
+            <ul>
+                <li>Фільми в HD якості</li>
+                <li>Багатомовне аудіо</li>
+                <li>Субтитри різними мовами</li>
+                <li>Можливість завантаження</li>
+            </ul>
+        </div>
+
+        <div class="list-group">
+            <h3>Як почати користуватися:</h3>
+            <ol type="A">
+                <li>Зареєструйтеся на платформі</li>
+                <li>Оберіть підписку</li>
+                <li>Налаштуйте профіль</li>
+                <li>Почніть перегляд</li>
+            </ol>
+        </div>
+    </section>
+
+    <div class="form-container">
+        <div class="form-header">
+            <h2>Звяжіться з нами</h2>
+            <p>Заповніть форму нижче, щоб зв'язатися з нами</p>
+            <p>Ми зв'яжемося з вами найближчим часом</p>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="name">Ім'я</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <div class="form-error">Будь ласка, введіть валідний email</div>
+            </div>
+            <button type="submit" class="form-submit-btn">Відправити</button>
+        </form>
+    </div>
+
+</body>
+</html>
